@@ -1,4 +1,4 @@
-//June 22 of 2024
+//June 23 of 2024
 //Mario Acosta Automation process 
 
 const puppeteer = require('puppeteer');
@@ -13,6 +13,8 @@ const editIntoSketchFunction = require('./components/editIntoSketchFunction.js')
 const renameIntoSketchFunction = require('./components/renameIntoSketchFunction.js');
 const waitForEnter = require('./components/waitForEnter.js');
 const searchAndClickTransform = require('./components/searchAndClickTransform.js');
+const searchAndClickCustomExtrude2 = require('./components/searchAndClickCustomExtrude2.js');
+
 
 
 const { performRightClickOptionByTitle } = require('./components/performRightClickOptionByTitle.js');
@@ -184,6 +186,9 @@ const { performRightClickOptionByTitle } = require('./components/performRightCli
         console.log('USER CLICKED ENTER')
         ////////////////////
         await searchAndClickTransform(newPage);
+
+
+
         console.log('After waiting for the transform function')
         console.log("KKKKKKKKKKKK")
 
