@@ -1,4 +1,4 @@
-//July 6th USA  of  2024
+//July 7th USA  of  2024
 //Mario Acosta Automation process 
 
 const puppeteer = require('puppeteer');
