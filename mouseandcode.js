@@ -255,11 +255,11 @@ const { performRightClickOptionByTitle } = require('./components/performRightCli
         ////////////////////
         await waitForEnter();
         ////////////////////
-
-
-
-
         console.log("NNNNNNNNNN")
+
+
+
+
         //SELECT SKETCH TO CLICK OR UNCLICK, THIS CODE IS REALLY IMPORTANT
         console.log('Waiting 10 seconds.');
         console.log('SELECTING ITEM 5 ON THE LIST.');
@@ -404,6 +404,7 @@ const { performRightClickOptionByTitle } = require('./components/performRightCli
 
         ////////////////////
         await waitForEnter();
+        console.log("UUUUUUUUUUUUUUUU")
         ////////////////////
 
 
